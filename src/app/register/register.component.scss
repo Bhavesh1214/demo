@@ -1,0 +1,39 @@
+.title-lable {
+  font-size: 40px;
+  font-weight: 500;
+  display: flex;
+}
+.sign-con {
+  color: #a8a9ad;
+}
+.card {
+  margin-top: 50px;
+  background-color: #d1f0ff;
+  border-radius: 83px 83px 83px 0;
+  height: 75vh;
+}
+.image_register {
+  width: 257px;
+  margin: 0 auto;
+  display: block;
+}
+ion-card-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input-class {
+  border-radius: 50px !important;
+  background-color: rgba(0, 147, 255, 0.5);
+  border: none !important;
+}
+.sing-btn {
+  color: black;
+  width: 187px;
+  height: 47px;
+  font-size: 17px;
+  font-weight: 600;
+}
+.last-sec {
+  text-align: center;
+}

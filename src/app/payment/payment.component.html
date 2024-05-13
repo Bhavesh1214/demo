@@ -1,0 +1,52 @@
+<ion-content>
+  <img
+    class="image_back"
+    src="../../assets/image/Vector.png"
+    alt=""
+    routerLink="/personal-information"
+  />
+  <ion-card-title class="text-center terms-condition mt-5"
+    >Choose your payment method</ion-card-title
+  >
+  <ion-input
+    label="Outline Bank Name"
+    label-placement="floating"
+    fill="outline"
+    placeholder="Bank Name"
+    class="input-class"
+  ></ion-input>
+  <ion-input
+    label="Account Holder Name"
+    label-placement="floating"
+    fill="outline"
+    placeholder="Account Holder Name"
+    class="input-class mt-3"
+  ></ion-input>
+  <ion-input
+    label="Account  Number"
+    label-placement="floating"
+    fill="outline"
+    placeholder=" Account  Number"
+    class="input-class mt-3"
+  ></ion-input>
+
+  <ion-select
+    label="Routing Number"
+    label-placement="floating"
+    fill="outline"
+    class="input-class mt-3"
+  >
+    <ion-select-option value="1">1</ion-select-option>
+    <ion-select-option value="2">2</ion-select-option>
+    <ion-select-option value="3">3</ion-select-option>
+  </ion-select>
+  <div class="d-flex justify-content-center mt-5">
+    <ion-button
+      shape="round"
+      class="accept-btn"
+      style="--background: #0ba8e6"
+      routerLink="/personal-information"
+      >Next</ion-button
+    >
+  </div>
+</ion-content>
